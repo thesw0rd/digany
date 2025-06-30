@@ -26,8 +26,8 @@ This Python script queries various DNS record types for a given domain individua
 
 ### Installation
 
-1.  Save the script: Copy the Python code into a file, e.g., `dig_any.py`.
-2.  Make it executable: `chmod +x dig_any.py`
+1.  Save the script: Copy the Python code into a file, e.g., `digany.py`.
+2.  Make it executable: `chmod +x digany.py`
 
 ---
 
@@ -36,7 +36,7 @@ This Python script queries various DNS record types for a given domain individua
 Run the script with the domain as an argument:
 
 ```bash
-./dig_any.py example.com
+./digany.py example.com
 ```
 ---
 Made by thesw0rd
