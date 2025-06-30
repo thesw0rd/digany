@@ -1,6 +1,8 @@
 # DIG ANY - DNS Reconnaissance Script
----
+## Overview
+
 This Python script queries various DNS record types for a given domain individually, as the standard `dig <domain> ANY` often fails. It provides a structured, color-coded output in the terminal, making DNS information easy to read.
+
 ---
 
 ## Features
@@ -34,7 +36,7 @@ This Python script queries various DNS record types for a given domain individua
 Run the script with the domain as an argument:
 
 ```bash
-./digany.py example.com
+./dig_any.py example.com
 ```
 ---
 Made by thesw0rd
