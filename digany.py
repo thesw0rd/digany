@@ -50,7 +50,7 @@ def main():
         sys.exit(1)
 
     domain = sys.argv[1]
-    dns_server = "1.1.1.1" # Can be made an argument if you want
+    dns_server = "1.1.1.1" # Can be made an argument once in the future
 
     print(f"{Colors.HEADER}{Colors.BOLD}Analyzing domain: {domain}{Colors.ENDC}")
     print(f"{Colors.HEADER}{Colors.BOLD}Using DNS server: {dns_server}{Colors.ENDC}")
@@ -76,7 +76,7 @@ def main():
         if output:
             lines = output.splitlines()
             for line in lines:
-                print(f"{Colors.OKGREEN}  {line}{Colors.ENDC}") # Added indentation for aesthetics
+                print(f"{Colors.OKGREEN}  {line}{Colors.ENDC}") # indentation for aesthetics
             results[record_type] = lines
         else:
             print(f"{Colors.WARNING}  No records found for type {record_type} or error retrieving.{Colors.ENDC}")
